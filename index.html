@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="contactstyle.css"> -->
+    <title>Ayla Travel WebSite</title>
+</head>
+<body>
+    <nav>
+        <div class="nav_header">
+            <div class="nav_logo">
+               <a href="#">Ayla<span>Travel</span></span></a> 
+            </div>
+            <div class="nav_menu_btn" id="menu-btn">
+             <span><i class="ri-menu-fill"></i></span>
+            </div>
+        </div>
+        <ul class="nav_links" id="nav-links">
+            <li><a href="#Destination">Destination</a></li>
+            <li><a href="#Package">Package</a></li>
+            <li><a href="#Blog">Blog</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav_btns">
+            <button class="btn sign_up">Sign Up</button>
+            <button class="btn sign_in">Sign In</button>
+        </div>
+    </nav>
+    <header class="header_container">
+      <div class="header_image">
+        <div class="header_image_card headr_image_card-1">
+            <span><i class="ri-key-line"></i></span>
+            Hotel Booking
+        </div>
+        <div class="header_image_card headr_image_card-2">
+            <span><i class="ri-passport-line"></i></span>
+            Flight Tickets
+        </div>
+        <div class="header_image_card headr_image_card-3">
+            <span><i class="ri-map-2-line"></i></span>
+            Local Events
+        </div>
+        <div class="header_image_card headr_image_card-4">
+            <span><i class="ri-guide-line"></i></span>
+            Tour Guide
+        </div>
+        <img src="assets/tourist-pointing-up.png" alt="header">
+      </div>
+      <div class="header_content">
+        <h1>LET'S GO!<br/>THE<span>ADVENTURE</span>IS WAITTING FOR YOU</h1>
+        <P>Lorem ipsum dolor sit amet consectetur,
+             adipisicing elit. Quam ipsam velit vero facere
+              sed praesentium itaque, labore facilis,
+               temporibus aut aspernatur animi perferendis</P>
+           <form action ="/">
+            <div class="input_row">
+                <div class="input_group">
+                    <h5>Destination</h5>
+                    <div>
+                        <span><i class = "ri-map-pin-line"></i></span>
+                        <input type="text" placeholder="Gaza,Palestine">
+                    </div>
+                </div>
+                <div class="input_group">
+                    <h5>Date</h5>
+                    <div>
+                        <span><i class="ri-calendar-2-line"></i></span>
+                        <input type="text" placeholder="09 April 2025">
+                    </div>
+                </div>
+            </div>
+                <button type="submit">Search</button>
+           </form>  
+        </div>
+    </header>  
+    <section class="destination-section" id="Destination">
+        <h2 class="section-title">Top Travel Destinations</h2>
+        <div class="destinations">
+    
+          <!-- Destination 1 -->
+          <div class="destination-card">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Bali" class="destination-img">
+            <div class="destination-info">
+              <h3>Bali, Indonesia</h3>
+              <p>Explore the tropical paradise with beautiful beaches, temples, and vibrant culture.</p>
+              <div class="details">
+                <div class="detail"><i class="ri-map-pin-line"></i> Indonesia</div>
+                <div class="detail"><i class="ri-sun-line"></i> Warm</div>
+                <div class="detail"><i class="ri-chat-3-line"></i> Indonesian</div>
+                <div class="detail"><i class="ri-money-dollar-circle-line"></i> Rupiah</div>
+              </div>
+              <a href="#" class="btn">Learn More</a>
+            </div>
+          </div>
+    
+          <!-- Destination 2 -->
+          <div class="destination-card">
+            <img src="https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba" alt="Paris" class="destination-img">
+            <div class="destination-info">
+              <h3>Paris, France</h3>
+              <p>The city of love, filled with iconic landmarks, fine cuisine, and art museums.</p>
+              <div class="details">
+                <div class="detail"><i class="ri-map-pin-line"></i> France</div>
+                <div class="detail"><i class="ri-cloud-line"></i> Mild</div>
+                <div class="detail"><i class="ri-chat-3-line"></i> French</div>
+                <div class="detail"><i class="ri-money-euro-circle-line"></i> Euro</div>
+              </div>
+              <a href="#" class="btn">Learn More</a>
+            </div>
+          </div>
+    
+          <!-- Destination 3 -->
+          <div class="destination-card">
+            <img src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad" alt="Tokyo" class="destination-img">
+            <div class="destination-info">
+              <h3>Tokyo, Japan</h3>
+              <p>A perfect mix of tradition and innovation, from ancient temples to neon-lit skyscrapers.</p>
+              <div class="details">
+                <div class="detail"><i class="ri-map-pin-line"></i> Japan</div>
+                <div class="detail"><i class="ri-snowy-line"></i> Cool</div>
+                <div class="detail"><i class="ri-chat-3-line"></i> Japanese</div>
+                <div class="detail"><i class="ri-money-yen-circle-line"></i>Yen</div>
+              </div>
+              <a href="#" class="btn">Learn More</a>
+            </div>
+          </div>
+        <!-- Destination 4 -->
+        <div class="destination-card">
+            <img src="assets/rome.jpg" alt="Rome" class="destination-img">
+            <div class="destination-info">
+              <h3>Rome, Italy</h3>
+              <p>Walk through ancient ruins, enjoy Italian cuisine, and admire Renaissance art.</p>
+              <div class="details">
+                <div class="detail"><i class="ri-map-pin-line"></i> Italy</div>
+                <div class="detail"><i class="ri-sun-line"></i> Warm</div>
+                <div class="detail"><i class="ri-chat-3-line"></i> Italian</div>
+                <div class="detail"><i class="ri-money-euro-circle-line"></i> Euro</div>
+              </div>
+              <a href="#" class="btn">Learn More</a>
+            </div>
+          </div>
+    
+          <!-- Destination 5 -->
+          <div class="destination-card">
+            <img src="assets/capetown.jpg" alt="Cape Town" class="destination-img">
+            <div class="destination-info">
+              <h3>Cape Town, South Africa</h3>
+              <p>A city of mountains and beaches, wildlife safaris, and rich cultural diversity.</p>
+              <div class="details">
+                <div class="detail"><i class="ri-map-pin-line"></i> South Africa</div>
+                <div class="detail"><i class="ri-cloud-line"></i> Mild</div>
+                <div class="detail"><i class="ri-chat-3-line"></i> English, Afrikaans</div>
+                <div class="detail"><i class="ri-money-dollar-circle-line"></i> Rand</div>
+              </div>
+              <a href="#" class="btn">Learn More</a>
+            </div>
+          </div>
+    
+          <!-- Destination 6 -->
+          <div class="destination-card">
+            <img src="assets/newyork.jpg" alt="New York" class="destination-img">
+            <div class="destination-info">
+              <h3>New York City, USA</h3>
+              <p>The city that never sleeps — full of skyscrapers, Broadway, food, and fashion.</p>
+              <div class="details">
+                <div class="detail"><i class="ri-map-pin-line"></i> USA</div>
+                <div class="detail"><i class="ri-sun-line"></i> Mixed</div>
+                <div class="detail"><i class="ri-chat-3-line"></i> English</div>
+                <div class="detail"><i class="ri-money-dollar-circle-line"></i> USD</div>
+              </div>
+              <a href="#" class="btn">Learn More</a>
+            </div>
+          </div>
+    
+        </div>
+      </section>
+      <section class="package-section" id ="Package">
+        <h2 class="section-title ">Our Travel Packages</h2>
+        <div class="packages">
+    
+          <!-- Package 1 -->
+          <div class="package-card">
+            <img src="assets/s.jpg" alt="Standard Package" class="package-img">
+            <div class="package-content">
+              <h3>Standard Package</h3>
+              <p>Perfect for budget travelers who want to explore with basic comforts and guided tours.</p>
+              <ul class="package-details">
+                <li><i class="ri-calendar-line"></i> 5 Days / 4 Nights</li>
+                <li><i class="ri-hotel-line"></i> 3-Star Accommodation</li>
+                <li><i class="ri-restaurant-line"></i> Daily Breakfast</li>
+                <li><i class="ri-bus-line"></i> City Tours Included</li>
+              </ul>
+              <div class="price">$399 per person</div>
+              <a href="#" class="btn">Book Now</a>
+            </div>
+          </div>
+    
+          <!-- Package 2 -->
+          <div class="package-card">
+            <img src="assets/p.jpg" alt="Premium Package" class="package-img">
+            <div class="package-content">
+              <h3>Premium Package</h3>
+              <p>Enjoy a higher level of comfort, private transfers, and premium hotel stays.</p>
+              <ul class="package-details">
+                <li><i class="ri-calendar-line"></i> 7 Days / 6 Nights</li>
+                <li><i class="ri-hotel-line"></i> 4-Star Accommodation</li>
+                <li><i class="ri-flight-takeoff-line"></i> Airport Transfers</li>
+                <li><i class="ri-map-pin-user-line"></i> Guided Excursions</li>
+              </ul>
+              <div class="price">$799 per person</div>
+              <a href="#" class="btn">Book Now</a>
+            </div>
+          </div>
+    
+          <!-- Package 3 -->
+          <div class="package-card">
+            <img src="assets/l.jpg" alt="Luxury Package" class="package-img">
+            <div class="package-content">
+              <h3>Luxury Package</h3>
+              <p>The ultimate travel experience — luxury resorts, gourmet dining, and private tours.</p>
+              <ul class="package-details">
+                <li><i class="ri-calendar-line"></i> 10 Days / 9 Nights</li>
+                <li><i class="ri-hotel-line"></i> 5-Star Resorts</li>
+                <li><i class="ri-restaurant-2-line"></i> All-Inclusive Meals</li>
+                <li><i class="ri-car-line"></i> Private Chauffeur Service</li>
+              </ul>
+              <div class="price">$999 per person</div>
+              <a href="#" class="btn">Book Now</a>
+            </div>
+          </div>
+    
+        </div>
+      </section>
+    
+     
+    
+      <section class="blog-section" id = "Blog">
+        <h2 class="section-title">Travel Blog Stories</h2>
+        <div class="carousel-container">
+          <div class="carousel-track">
+    
+            <!-- Repeat your slides here -->
+            <div class="carousel-slide">
+              <img src="assets/sun1" alt="Bali">
+              <div class="carousel-content">
+                <h3>Sunsets in Bali</h3>
+                <p>Enjoy magical sunsets on tropical beaches.</p>
+                <a href="#">Read More →</a>
+              </div>
+            </div>
+    
+            <div class="carousel-slide">
+              <img src="assets/paris.jpg" alt="Paris">
+              <div class="carousel-content">
+                <h3>Romantic Paris</h3>
+                <p>Discover hidden cafés and charming corners.</p>
+                <a href="#">Read More →</a>
+              </div>
+            </div>
+    
+            <div class="carousel-slide">
+              <img src="assets/d.jpg" alt="Safari">
+              <div class="carousel-content">
+                <h3>Desert Safari</h3>
+                <p>Adventures over golden dunes and wild trails.</p>
+                <a href="#">Read More →</a>
+              </div>
+            </div>
+    
+            <!-- Repeats for infinite scroll -->
+            <div class="carousel-slide">
+              <img src="assets/sun.jpg" alt="Bali">
+              <div class="carousel-content">
+                <h3>Sunsets in Bali</h3>
+                <p>Enjoy magical sunsets on tropical beaches.</p>
+                <a href="#">Read More →</a>
+              </div>
+            </div>
+    
+            <div class="carousel-slide">
+              <img src="assets/paris.jpg" alt="Paris">
+              <div class="carousel-content">
+                <h3>Romantic Paris</h3>
+                <p>Discover hidden cafés and charming corners.</p>
+                <a href="#">Read More →</a>
+              </div>
+            </div>
+    
+            <div class="carousel-slide">
+              <img src="assets/d.jpg" alt="Safari">
+              <div class="carousel-content">
+                <h3>Desert Safari</h3>
+                <p>Adventures over golden dunes and wild trails.</p>
+                <a href="#">Read More →</a>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+      </section>
+      <section id="about">  
+        <div class="container">
+          <div class="about-image">
+            <img src="assets/about.png" alt="About Ayla Travel">
+          </div>
+          <div class="about-content">
+            <h2>About Ayla Travel</h2>
+            <p>
+              At <strong>Ayla Travel</strong>, we believe that every journey tells a story. Founded with a passion for exploration and a commitment to excellence, our mission is to create unforgettable travel experiences tailored just for you.
+            </p>
+            <ul>
+              <li>🌍 Customized travel packages across breathtaking destinations</li>
+              <li>🧭 Expert local guides and 24/7 travel assistance</li>
+              <li>💼 Corporate & group travel planning</li>
+              <li>💡 Insider tips and curated blog recommendations</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      
+           <section class="contact-section" id="contact">
+            <h2>Contact Us</h2>
+            <p>Have a question? We'd love to help you plan your next trip!</p>
+        
+            <form id="contactForm">
+              <div>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+        
+              <div>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+        
+              <div>
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+        
+              <button type="submit">Send Message</button>
+            </form>
+        
+            <div class="success-message" id="successMessage">
+              ✅ Your message has been sent successfully! We'll get back to you soon.
+            </div>
+          </section>
+           <div class="bar">
+              Copyright <i class="ri-copyright-line"></i> 2025 Ayla Travel WebSite.
+           </div>              
+    
+    
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+</body>
+</html>
